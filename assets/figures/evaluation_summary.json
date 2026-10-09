@@ -1,0 +1,21 @@
+{
+  "checkpoint": "my_mnist_can.pt",
+  "checkpoint_sha256": "2310313765eec0f6a83636fe7d2c9892266ab088b59095a32a8e14447ed64626",
+  "test_examples": 10000,
+  "correct": 9907,
+  "errors": 93,
+  "accuracy_percent": 99.07,
+  "device": "cuda",
+  "per_class_support": [
+    980,
+    1135,
+    1032,
+    1010,
+    982,
+    892,
+    958,
+    1028,
+    974,
+    1009
+  ]
+}

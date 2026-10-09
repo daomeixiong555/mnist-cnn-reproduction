@@ -1,0 +1,33 @@
+# Python bytecode and environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+
+# Downloaded MNIST data and ad-hoc training outputs
+/data/
+/data/*
+!/data/README.md
+/runs/
+/checkpoints/
+
+# Keep only the reviewed, distributable state dictionaries
+/models/*.pt
+!/models/my_mnist_can.pt
+!/models/official_mnist_cnn.pt
+
+# Local editor, OS, logs, and secrets
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
